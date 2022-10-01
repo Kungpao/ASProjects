@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_light"
+    android:weightSum="30">
+
+
+<!-- Title part-->
+    <TextView
+        android:id="@+id/c_c_title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/mochiy_pop_p_one_regular"
+        android:textColor="@color/purple_custom"
+        android:textSize="40dp"
+        android:text="@string/c_c_title1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/c_c_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/menu_black"
+            android:textSize="40dp"
+            android:fontFamily="@font/mochiy_pop_p_one_regular"
+            android:text="@string/c_c_title2" />
+
+        <TextView
+            android:id="@+id/c_c_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_black"
+            android:textSize="40dp"
+            android:fontFamily="@font/mochiy_pop_p_one_regular"
+            android:text="@string/c_c_title3" />
+    </LinearLayout>
+
+
+    <!-- ImageView Part, central-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/char1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ellipse2"
+                android:src="@drawable/goward_open"
+                android:onClick="characterChoose"
+                />
+
+            <ImageView
+                android:id="@+id/char2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ellipse5"
+                android:layout_weight="1"
+                android:src="@drawable/raj_locked"
+                android:onClick="characterChoose"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/char3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ellipse5"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/penny_locked"
+                android:onClick="characterChoose"/>
+
+            <ImageView
+                android:id="@+id/char4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ellipse5"
+                android:layout_weight="1"
+                android:src="@drawable/sheldon_locked"
+                android:onClick="characterChoose"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Bottom part, controls-->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/mochiy_pop_p_one_regular"
+        app:backgroundTint="@color/purple_custom"
+        app:cornerRadius="20dip"
+        android:text="let's go"
+        android:onClick="goToScene4"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:backgroundTint="@color/menu_black"
+        android:fontFamily="@font/mochiy_pop_p_one_regular"
+        app:cornerRadius="20dip"
+        android:text="no, back"
+        android:onClick="goToScene1"/>
+
+
+</LinearLayout>

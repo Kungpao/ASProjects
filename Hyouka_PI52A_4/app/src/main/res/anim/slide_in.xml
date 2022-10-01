@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:fillAfter="true">
+
+    <!-- bettter to split this file. so the scale func will start in the animation listener on start the animation -->
+    <scale android:fromXScale="0.0" android:fromYScale="0.0"
+        android:toXScale="1.0" android:toYScale="1.0"
+        android:duration="500" android:fillBefore="false" />
+
+    <translate
+        android:fromXDelta="75%p"
+        android:toXDelta="0%p"
+        android:fromYDelta="75%p"
+        android:toYDelta="0%p"
+        android:duration="3000" />
+
+</set>

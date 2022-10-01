@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_custom"
+    >
+
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/mochiy_pop_p_one_regular"
+        android:text="Result"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/resultCpuHand"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/resultText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:padding="20dp"
+        android:src="@drawable/lizard" />
+
+    <ImageView
+        android:id="@+id/rollImg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/resultCpuHand"
+        android:layout_marginLeft="10dp"
+        android:padding="20dp"
+        android:src="@drawable/lizard" />
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/goward_win" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/r_mainMenu"
+            android:backgroundTint="@color/brown_custom"
+            android:fontFamily="@font/mochiy_pop_p_one_regular"
+            android:textSize="20dp"
+            app:cornerRadius="20dip"
+            android:onClick="goToScene1"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/brown_custom"
+            android:fontFamily="@font/mochiy_pop_p_one_regular"
+            android:text="@string/r_playAgain"
+            app:cornerRadius="20dip"
+            android:onClick="goToScene4"/>
+    </LinearLayout>
+</RelativeLayout>

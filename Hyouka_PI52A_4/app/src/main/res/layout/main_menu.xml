@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:weightSum="30"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_light">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/menu_black"
+            android:textSize="40dp"
+            android:fontFamily="@font/mochiy_pop_p_one_regular"
+            android:text="@string/Big" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_custom"
+            android:textSize="40dp"
+            android:fontFamily="@font/mochiy_pop_p_one_regular"
+            android:text="@string/Bang" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/mochiy_pop_p_one_regular"
+        android:textColor="@color/menu_black"
+        android:textSize="40dp"
+        android:text="@string/RPSLS" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_img_color" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:backgroundTint="@color/purple_custom"
+        android:fontFamily="@font/mochiy_pop_p_one_regular"
+        android:onClick="goToScene2"
+        android:text="@string/play"
+        android:textSize="30dp"
+        app:cornerRadius="20dip" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:backgroundTint="@color/menu_black"
+        android:fontFamily="@font/mochiy_pop_p_one_regular"
+        android:text="@string/tutorial"
+        app:backgroundTint="@color/menu_black"
+        app:cornerRadius="20dip"
+        android:onClick="goToScene3"/>
+
+
+</LinearLayout>
