@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/prylypa/AndroidStudioProjects/Dentaku0304_2PI52A_04/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/prylypa/ASProjectsForGit/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.14722222222222223" />
       </map>
     </option>
   </component>
@@ -12,5 +12,8 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
   </component>
 </project>

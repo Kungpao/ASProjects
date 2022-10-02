@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Dentaku03-04_PI52A_04"
+rootProject.name = "Dentaku04-03_PI52A_04"
 include ':app'
