@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:adjustViewBounds="true"
+    tools:context=".MainActivity"
+    android:background="@color/teal_700"
+    android:weightSum="10"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+>
+
+        <com.example.kadai06_pi52a_04.CustomImageView
+            android:id="@+id/c_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blank" />
+
+        <com.example.kadai06_pi52a_04.CustomImageView
+            android:id="@+id/c_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blank" />
+
+        <com.example.kadai06_pi52a_04.CustomImageView
+            android:id="@+id/c_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blank" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:adjustViewBounds="true"
+        android:orientation="horizontal">
+
+        <com.example.kadai06_pi52a_04.CustomImageView
+            android:id="@+id/c_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blank" />
+
+        <com.example.kadai06_pi52a_04.CustomImageView
+            android:id="@+id/c_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blank" />
+
+        <com.example.kadai06_pi52a_04.CustomImageView
+            android:id="@+id/c_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blank" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:adjustViewBounds="true"
+        android:orientation="horizontal">
+
+        <com.example.kadai06_pi52a_04.CustomImageView
+            android:id="@+id/c_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blank" />
+
+        <com.example.kadai06_pi52a_04.CustomImageView
+            android:id="@+id/c_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blank" />
+
+        <com.example.kadai06_pi52a_04.CustomImageView
+            android:id="@+id/c_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blank" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="Button" />
+
+
+</LinearLayout>

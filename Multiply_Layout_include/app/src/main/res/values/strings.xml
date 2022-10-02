@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Multiply_Layout_include</string>
+    <string name="one_string">one</string>
+    <string name="two_string">two</string>
+    <string name="three_string">three</string>
+</resources>

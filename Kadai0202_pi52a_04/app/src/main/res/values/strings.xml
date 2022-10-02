@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kadai02_pi52a_04</string>
+    <string name="title">Kadai02 BMI計算アプリ</string>
+    <string name="name">PI52A092 04 Prylypa Dmytro</string>
+
+    <string name="bodyHeightLabel">身長</string>
+    <string name="heightMeasureType">cm</string>
+    <string name="bodyWeightLabel">大量</string>
+    <string name="weightMeasureType">kg</string>
+
+    <string name="calculateBtnLabel">計算</string>
+
+
+    <string name="bmiLabel">BMI:</string>
+    <string name="weightLabel">標準体重:</string>
+    <string name="calculationDefaultMessage">未計算</string>
+</resources>
